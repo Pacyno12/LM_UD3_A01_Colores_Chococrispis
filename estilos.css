@@ -49,3 +49,17 @@ header{
     font-family:arial,sans-serif;
     color:#fff;
 }
+cuadrados {
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+  }
+  #cuadrado1, #cuadrado2, #cuadrado3, #cuadrado4, #cuadrado5, #cuadrado6, #cuadrado7,
+  #cuadrado8, #cuadrado9, #cuadrado10 {
+    height: 12em;
+    width: 12em;
+    background-color: red;
+    display: inline-block;
+    margin: 3em;
+    cursor: pointer;
