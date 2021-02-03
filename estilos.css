@@ -1,18 +1,21 @@
-html{
+*{
     height: 100%;
     width: 100%;
-    font-size: 50px;
+    padding: 0;
+    margin: 0;
 }
-
-
 
 header{
     height: 10%;
     text-align: center;
     color: #fff;
     background-color:rgb(0, 26, 112);
+    font-size: 20px;
 }
-#pie{
+section{
+    height: 80%;
+}
+footer{
     height:10%;
     background-color:rgb(0, 26, 112);
 }
@@ -21,11 +24,8 @@ header{
 /**Reloj**/
 .reloj-completo {
     background-color: rgb(0, 26, 112);
-    max-width:550px;
     width:100%;
-    max-height: 10%;
     text-align:center;
-    margin:0 auto;
 }
 #reloj{
     background-color:rgb(0, 26, 112);
@@ -39,34 +39,16 @@ header{
     text-shadow:0px 0px 1px rgb(0, 26, 112);
     font-size:20px;
     position:relative;
-    top:-15px;
-    left:-5px;
-}
-#fecha {
-    letter-spacing:4px;
-    font-size:20px;
-    font-family:arial,sans-serif;
-    color:#fff;
-}
-section {
 }
 .cuadrado {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  padding: 10px;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 }
 .obj {
   border: 1px solid rgba(0, 0, 0, 0.8);
   background-color: red;
-  padding: 20px;
-  font-size: 30px;
   text-align: center;
+  cursor: pointer;
 }
-
-  }
-
-  #cuadrado1, #cuadrado2, #cuadrado3, #cuadrado4, #cuadrado5, #cuadrado6, #cuadrado7,
-  #cuadrado8, #cuadrado9, #cuadrado10 {
-  }

@@ -32,3 +32,45 @@ function checkTime(i) {
     }
     return i;
 }
+let aux = 0;
+let colorArrays = ["yellow", "blue", "orange", "black", "purple", "cyan", "gray", "lime", "aqua", "brown"];
+function cambiarColor1(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado1").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor2(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado2").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor3(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado3").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor4(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado4").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor5(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado5").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor6(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado6").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor7(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado7").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor8(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado8").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor9(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado9").style.backgroundColor = colorArrays [num];
+}
+function cambiarColor10(){
+    num = (Math.floor(Math.random()*10));
+    document.getElementById("cuadrado10").style.backgroundColor = colorArrays [num];
+}
