@@ -43,11 +43,10 @@ footer{
 .cuadrado {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
 }
 .obj {
-  border: 1px solid rgba(0, 0, 0, 0.8);
   background-color: red;
   text-align: center;
   cursor: pointer;
